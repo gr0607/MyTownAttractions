@@ -3,27 +3,43 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		647BCACD730AAA2BF748AF2D /* Pods_MyTownAttractions.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 97911191AC2693F433E04B16 /* Pods_MyTownAttractions.framework */; };
 		841F118B25D2F3F700F04EAF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F118A25D2F3F700F04EAF /* AppDelegate.swift */; };
 		841F118D25D2F3F700F04EAF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F118C25D2F3F700F04EAF /* SceneDelegate.swift */; };
-		841F118F25D2F3F700F04EAF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F118E25D2F3F700F04EAF /* ViewController.swift */; };
+		841F118F25D2F3F700F04EAF /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F118E25D2F3F700F04EAF /* MainViewController.swift */; };
 		841F119225D2F3F700F04EAF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841F119025D2F3F700F04EAF /* Main.storyboard */; };
 		841F119425D2F3F800F04EAF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841F119325D2F3F800F04EAF /* Assets.xcassets */; };
 		841F119725D2F3F800F04EAF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841F119525D2F3F800F04EAF /* LaunchScreen.storyboard */; };
+		841F11A225D2F67200F04EAF /* AppleMapsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841F11A125D2F67200F04EAF /* AppleMapsViewController.swift */; };
+		846E7E3A25D5942000A6CAA2 /* ApplePlace.swift in Sources */ = {isa = PBXBuildFile; fileRef = 846E7E3925D5942000A6CAA2 /* ApplePlace.swift */; };
+		8471978525D2F880002FBF98 /* Place.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8471978425D2F880002FBF98 /* Place.swift */; };
+		847AA3C825D5BD090026BA4D /* GoogleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 847AA3C725D5BD090026BA4D /* GoogleViewController.swift */; };
+		84E4F88E25D309E600CDC4C8 /* MyLocationManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E4F88D25D309E600CDC4C8 /* MyLocationManager.swift */; };
+		84F772FB25D7FDE9004144A6 /* YandexViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84F772FA25D7FDE9004144A6 /* YandexViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		130578E5136C8EFCDE313D50 /* Pods-MyTownAttractions.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTownAttractions.release.xcconfig"; path = "Target Support Files/Pods-MyTownAttractions/Pods-MyTownAttractions.release.xcconfig"; sourceTree = "<group>"; };
 		841F118725D2F3F700F04EAF /* MyTownAttractions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyTownAttractions.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841F118A25D2F3F700F04EAF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		841F118C25D2F3F700F04EAF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		841F118E25D2F3F700F04EAF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		841F118E25D2F3F700F04EAF /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		841F119125D2F3F700F04EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		841F119325D2F3F800F04EAF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841F119625D2F3F800F04EAF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841F119825D2F3F800F04EAF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841F11A125D2F67200F04EAF /* AppleMapsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleMapsViewController.swift; sourceTree = "<group>"; };
+		846E7E3925D5942000A6CAA2 /* ApplePlace.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApplePlace.swift; sourceTree = "<group>"; };
+		8471978425D2F880002FBF98 /* Place.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Place.swift; sourceTree = "<group>"; };
+		847AA3C725D5BD090026BA4D /* GoogleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GoogleViewController.swift; sourceTree = "<group>"; };
+		84E4F88D25D309E600CDC4C8 /* MyLocationManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyLocationManager.swift; sourceTree = "<group>"; };
+		84F772FA25D7FDE9004144A6 /* YandexViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = YandexViewController.swift; sourceTree = "<group>"; };
+		97911191AC2693F433E04B16 /* Pods_MyTownAttractions.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MyTownAttractions.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		B393F6D0A7C55EA3233EFFCD /* Pods-MyTownAttractions.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MyTownAttractions.debug.xcconfig"; path = "Target Support Files/Pods-MyTownAttractions/Pods-MyTownAttractions.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +47,29 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				647BCACD730AAA2BF748AF2D /* Pods_MyTownAttractions.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3E296D9CAD05AD565BE85DAD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B393F6D0A7C55EA3233EFFCD /* Pods-MyTownAttractions.debug.xcconfig */,
+				130578E5136C8EFCDE313D50 /* Pods-MyTownAttractions.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		841F117E25D2F3F700F04EAF = {
 			isa = PBXGroup;
 			children = (
 				841F118925D2F3F700F04EAF /* MyTownAttractions */,
 				841F118825D2F3F700F04EAF /* Products */,
+				3E296D9CAD05AD565BE85DAD /* Pods */,
+				B85EAA0ED1F448926A7714AE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,13 +86,51 @@
 			children = (
 				841F118A25D2F3F700F04EAF /* AppDelegate.swift */,
 				841F118C25D2F3F700F04EAF /* SceneDelegate.swift */,
-				841F118E25D2F3F700F04EAF /* ViewController.swift */,
+				841F118E25D2F3F700F04EAF /* MainViewController.swift */,
+				846E7E3C25D5B25B00A6CAA2 /* AppleMaps */,
+				847AA3CA25D5BFE10026BA4D /* GoogleMaps */,
+				846B7E8025D820D4005437E4 /* YandexMaps */,
 				841F119025D2F3F700F04EAF /* Main.storyboard */,
 				841F119325D2F3F800F04EAF /* Assets.xcassets */,
 				841F119525D2F3F800F04EAF /* LaunchScreen.storyboard */,
 				841F119825D2F3F800F04EAF /* Info.plist */,
+				8471978425D2F880002FBF98 /* Place.swift */,
+				84E4F88D25D309E600CDC4C8 /* MyLocationManager.swift */,
 			);
 			path = MyTownAttractions;
+			sourceTree = "<group>";
+		};
+		846B7E8025D820D4005437E4 /* YandexMaps */ = {
+			isa = PBXGroup;
+			children = (
+				84F772FA25D7FDE9004144A6 /* YandexViewController.swift */,
+			);
+			path = YandexMaps;
+			sourceTree = "<group>";
+		};
+		846E7E3C25D5B25B00A6CAA2 /* AppleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				841F11A125D2F67200F04EAF /* AppleMapsViewController.swift */,
+				846E7E3925D5942000A6CAA2 /* ApplePlace.swift */,
+			);
+			path = AppleMaps;
+			sourceTree = "<group>";
+		};
+		847AA3CA25D5BFE10026BA4D /* GoogleMaps */ = {
+			isa = PBXGroup;
+			children = (
+				847AA3C725D5BD090026BA4D /* GoogleViewController.swift */,
+			);
+			path = GoogleMaps;
+			sourceTree = "<group>";
+		};
+		B85EAA0ED1F448926A7714AE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				97911191AC2693F433E04B16 /* Pods_MyTownAttractions.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,9 +140,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 841F119B25D2F3F800F04EAF /* Build configuration list for PBXNativeTarget "MyTownAttractions" */;
 			buildPhases = (
+				5FB54E555EE9402489932C93 /* [CP] Check Pods Manifest.lock */,
 				841F118325D2F3F700F04EAF /* Sources */,
 				841F118425D2F3F700F04EAF /* Frameworks */,
 				841F118525D2F3F700F04EAF /* Resources */,
+				6CEB9D42143C2ED341BCACB4 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -132,14 +200,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		5FB54E555EE9402489932C93 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MyTownAttractions-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		6CEB9D42143C2ED341BCACB4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTownAttractions/Pods-MyTownAttractions-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MyTownAttractions/Pods-MyTownAttractions-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MyTownAttractions/Pods-MyTownAttractions-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		841F118325D2F3F700F04EAF /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841F118F25D2F3F700F04EAF /* ViewController.swift in Sources */,
+				841F118F25D2F3F700F04EAF /* MainViewController.swift in Sources */,
+				84F772FB25D7FDE9004144A6 /* YandexViewController.swift in Sources */,
+				847AA3C825D5BD090026BA4D /* GoogleViewController.swift in Sources */,
+				846E7E3A25D5942000A6CAA2 /* ApplePlace.swift in Sources */,
 				841F118B25D2F3F700F04EAF /* AppDelegate.swift in Sources */,
+				841F11A225D2F67200F04EAF /* AppleMapsViewController.swift in Sources */,
 				841F118D25D2F3F700F04EAF /* SceneDelegate.swift in Sources */,
+				84E4F88E25D309E600CDC4C8 /* MyLocationManager.swift in Sources */,
+				8471978525D2F880002FBF98 /* Place.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -283,12 +399,14 @@
 		};
 		841F119C25D2F3F800F04EAF /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = B393F6D0A7C55EA3233EFFCD /* Pods-MyTownAttractions.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5549XF852R;
 				INFOPLIST_FILE = MyTownAttractions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -302,12 +420,14 @@
 		};
 		841F119D25D2F3F800F04EAF /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 130578E5136C8EFCDE313D50 /* Pods-MyTownAttractions.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 5549XF852R;
 				INFOPLIST_FILE = MyTownAttractions/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
